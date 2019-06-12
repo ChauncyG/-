@@ -986,11 +986,10 @@ API Key 权限：交易
 ### 请求参数
 
 参数|是否必填 | 数据类型 | 说明 | 取值范围 |
------------|------------|-----------|------------|----------|--
-sub-uid	|true|	long|子账号uid	|-|
-currency|true|	string|币种	|-|
-amount|true|	decimal|划转金额|-|	
-type|true|string|划转类型| master-transfer-in（子账号划转给母账户虚拟币）/ master-transfer-out （母账户划转给子账号虚拟币）/master-point-transfer-in （子账号划转给母账户点卡）/master-point-transfer-out（母账户划转给子账号点卡） |
+sub-uid	|true|	long|子账号uid |
+currency|true|	string|币种 |
+amount|true| decimal|划转金额|	
+type|true|string|划转类型| master-transfer-in（子账号划转给母账户虚拟币）/ master-transfer-out （母账户划转给子账号虚拟币）/master-point-transfer-in （子账号划转给母账户点卡）/master-point-transfer-out（母账户划转给子账号点卡 |
 
 > Response:
 
